@@ -1,17 +1,12 @@
 import React from 'react'
-import Cart from './cart/index.jsx'
-import Price from './price/index.jsx'
-import { DF } from './styles.js'
+import OrderNavbar from './navbar';
+import OrdersContent from './ordersContent';
 
 function Products() {
     return (
         <div>
-            <DF >
-            <Cart />
-            <div>
-                <Price />
-            </div>
-            </DF>
+            <OrderNavbar/>
+            <OrdersContent/>
         </div>
     )
 }

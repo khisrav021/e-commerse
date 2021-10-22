@@ -74,19 +74,36 @@ border-bottom: 1px solid #F8F8F8;
 `
 
 export const Status = styled.div `
-width: 100px;
-height: 25px;
+/* width: 100px;
+height: 25px; */
 text-align: center;
-color: #F4BE6E;
-background-color: #FFF8ED;
+/* color: #F4BE6E; */
+/* background-color: #FFF8ED; */
 border-radius: 10px;
-cursor: pointer;
-transition-duration: 1s;
-svg{
-    margin-top: 3px;
-    width: 20px;
+b{
+    cursor: pointer;
+    &:hover{
+        background-color: red;
+    }
 }
-&:hover{
-    background-color: #FAFAFA;
+.edit{
+    width: 50px;
+    height: 12px;
+    padding: 10px;
+border-radius: 10px 0 0 10px;
+border: 1px solid green;
+    &:hover{
+        background-color: green;
+    }
+}
+.delete{
+    width: 50px;
+    height: 12px;
+    padding: 10px;
+border-radius:  0 10px 10px 0 ;
+border: 1px solid red;
+    &:hover{
+        background-color: red;
+    }
 }
 `

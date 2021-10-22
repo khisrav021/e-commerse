@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Nav = styled.nav `
 width: 300px;
-height: 100%;
-/* height: 781px; */
+/* height: 100%; */
+height: 781px;
 background-color: white;
 h1{
     padding-top: 20px;
@@ -17,6 +17,10 @@ text-decoration: none;
 }
 .bg{
     position: fixed;
+    background-color: white;
+    width: 300px;
+/* height: 100%; */
+height: 781px;
 }
 
 `

@@ -7,6 +7,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Orders from "../../components/orders/index.jsx";
 import Products from "../../components/products/index.jsx";
 import History from "../../components/history/index.jsx";
+import Cart from "../../components/cart/index.jsx";
 
 function MainPage() {
   
@@ -29,6 +30,9 @@ function MainPage() {
             </Route>
             <Route path="/history">
               <History />
+            </Route>
+            <Route path="/cart">
+              <Cart />
             </Route>
           </Switch>
         </div>

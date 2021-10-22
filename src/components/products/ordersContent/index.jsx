@@ -5,7 +5,6 @@ import { getPosts } from "../../../redux/modules/getPosts/getPostsAction.js";
 import { ReactComponent as CalendarIcon } from "../../../asstets/icons/calendar.svg";
 import { ReactComponent as DownIcon } from "../../../asstets/icons/section.svg";
 import { OrdersCard, Text, Title, Product, Status, Titles } from "./styles";
-import { ReactComponent as OrdersIcon } from "../../../asstets/icons/orders.svg";
 import nikeAirMax from "../../../asstets/images/nikeAirMax.jpg";
 
 function OrdersContent() {
@@ -24,10 +23,10 @@ function OrdersContent() {
       <OrdersCard>
         <Title>
           <div>
-            <h1>Order</h1>
+            <h1>Product</h1>
           </div>
           <div>
-            <p>15 Orders found</p>
+            <p>15 products found</p>
           </div>
           <div className="btn2">
             <button>
@@ -36,14 +35,14 @@ function OrdersContent() {
           </div>
         </Title>
         <Text>
-          <h3>All orders</h3>
+          <h3>All products</h3>
           <h3>Completed</h3>
           <h3>Panding</h3>
           <h3>Cancel</h3>
         </Text>
         <Titles>
           <div>
-            <p>Order ID :</p>
+            <p>Product ID :</p>
           </div>
           <div>
             <p>Product Name:</p>
@@ -63,7 +62,7 @@ function OrdersContent() {
         </Titles>
         {posts.success && !posts.loading
           ? posts?.posts.map((post) => (
-              <Product key="">
+                <Product key="">
                 <div>
                   <p>#{post.id}</p>
                 </div>
@@ -84,12 +83,11 @@ function OrdersContent() {
                 <div>
                   <p>${post.price}</p>
                 </div>
-                <Status><OrdersIcon /></Status>
+                <Status><b className="edit">✏</b><b className="delete">❌</b></Status>
               </Product>
             ))
           : ""}
         <h1>{posts.loading ? "loading..." : ""}</h1>
-        {/* <br /> */}
         {/* <Product>
                     <div><p>1</p></div>
                     <div><p>#78522135</p></div>

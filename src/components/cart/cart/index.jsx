@@ -23,7 +23,8 @@ function Cart() {
             <p>Dicital clock</p>
           </div>
           <div>
-            <input type="number" />
+            
+            <input type="number" placeholder="1"/>
           </div>
           <div>
             <p>$1.190,90</p>
@@ -46,7 +47,8 @@ function Cart() {
             <p>Dicital clock</p>
           </div>
           <div>
-            <input type="number" />
+            
+            <input type="number" placeholder="1"/>
           </div>
           <div>
             <p>$1.190,90</p>
@@ -69,31 +71,8 @@ function Cart() {
             <p>Dicital clock</p>
           </div>
           <div>
-            <input type="number" />
-          </div>
-          <div>
-            <p>$1.190,90</p>
-          </div>
-          <div>
-            <p>$1.190,90</p>
-          </div>
-          <div>
-            <button>
-              <DaleteIcon />
-            </button>
-          </div>
-        </Carts>
-
-        <br />
-        <Carts>
-          <div>
-            <img src={Photo} alt="" />
-          </div>
-          <div>
-            <p>Dicital clock</p>
-          </div>
-          <div>
-            <input type="number" />
+            
+            <input type="number" placeholder="1"/>
           </div>
           <div>
             <p>$1.190,90</p>
@@ -117,7 +96,32 @@ function Cart() {
             <p>Dicital clock</p>
           </div>
           <div>
-            <input type="number" />
+            
+            <input type="number" placeholder="1"/>
+          </div>
+          <div>
+            <p>$1.190,90</p>
+          </div>
+          <div>
+            <p>$1.190,90</p>
+          </div>
+          <div>
+            <button>
+              <DaleteIcon />
+            </button>
+          </div>
+        </Carts>
+
+        <br />
+        <Carts>
+          <div>
+            <img src={Photo} alt="" />
+          </div>
+          <div>
+            <p>Dicital clock</p>
+          </div>
+          <div>
+            <input type="number" placeholder="1"/>
           </div>
           <div>
             <p>$1.190,90</p>
