@@ -1,9 +1,17 @@
 import styled from "styled-components";
 
-export const DashboardNavbarCard = styled.nav `
+export const SearchNavbarCard = styled.nav `
 width: 100%;
+height: 75px;
 background-color: white;
 display: flex;
+.PF{
+    position: fixed;
+    /* width: 100%; */
+background-color: white;
+display: flex;
+z-index: 99;
+}
 `
 
 export const Search = styled.div `

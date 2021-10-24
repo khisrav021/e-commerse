@@ -1,12 +1,10 @@
 import React from 'react'
-import OrderNavbar from './navbar';
-import OrdersContent from './ordersContent';
+import ProductsContent from './productsContent';
 
 function Products() {
     return (
         <div>
-            <OrderNavbar/>
-            <OrdersContent/>
+            <ProductsContent/>
         </div>
     )
 }

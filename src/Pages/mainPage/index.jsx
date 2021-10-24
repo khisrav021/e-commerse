@@ -8,6 +8,7 @@ import Orders from "../../components/orders/index.jsx";
 import Products from "../../components/products/index.jsx";
 import History from "../../components/history/index.jsx";
 import Cart from "../../components/cart/index.jsx";
+import SearchNavbar from "../../components/navbarSearch/index.jsx";
 
 function MainPage() {
   
@@ -20,6 +21,7 @@ function MainPage() {
           <Navbar />
         </div>
         <div>
+          <SearchNavbar/>
           <Switch>
             <Route path="/" exact component={Dashboard} />
             <Route path="/orders">

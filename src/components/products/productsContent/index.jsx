@@ -7,7 +7,7 @@ import { ReactComponent as DownIcon } from "../../../asstets/icons/section.svg";
 import { OrdersCard, Text, Title, Product, Status, Titles } from "./styles";
 import nikeAirMax from "../../../asstets/images/nikeAirMax.jpg";
 
-function OrdersContent() {
+function ProductsContent() {
   const posts = useSelector((state) => state.getPostsReducer);
 
   console.log("posts", posts);
@@ -222,4 +222,4 @@ function OrdersContent() {
   );
 }
 
-export default OrdersContent;
+export default ProductsContent;
