@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const CartCard = styled.div`
 width: 660px;
-margin: 20px;
+margin: 20px 0;
+margin-left: 20px;
 background-color: white;
 border-radius: 10px;
 `

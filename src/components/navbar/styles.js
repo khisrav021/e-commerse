@@ -96,7 +96,7 @@ width: 200px;
 display: flex;
 cursor: pointer;
 position: fixed;
-top: 500px;
+top: 550px;
 /* margin-top: 100%; */
 /* margin-bottom: 20px; */
 &:hover{

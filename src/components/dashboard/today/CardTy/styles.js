@@ -13,18 +13,18 @@ margin: 10px 6px;
 
 export const Card1 = styled.div `
 .IconDiv{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: #EDF6FF;
     border-radius: 50%;
     svg{
-        margin-left: 9px;
-        margin-top: 9px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 }
 h2{
     
-    font-size: 20px;
+    font-size: 15px;
 }
 `
 

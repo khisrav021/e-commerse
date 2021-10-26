@@ -92,6 +92,7 @@ b{
     padding: 10px;
 border-radius: 10px 0 0 10px;
 border: 1px solid green;
+transition-duration: 1s;
     &:hover{
         background-color: green;
     }
@@ -102,6 +103,7 @@ border: 1px solid green;
     padding: 10px;
 border-radius:  0 10px 10px 0 ;
 border: 1px solid red;
+transition-duration: 1s;
     &:hover{
         background-color: red;
     }
