@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/e-commerse/static/css/main.a37f76fa.chunk.css",
-    "main.js": "/e-commerse/static/js/main.8ee456cd.chunk.js",
-    "main.js.map": "/e-commerse/static/js/main.8ee456cd.chunk.js.map",
+    "main.js": "/e-commerse/static/js/main.b03608a9.chunk.js",
+    "main.js.map": "/e-commerse/static/js/main.b03608a9.chunk.js.map",
     "runtime-main.js": "/e-commerse/static/js/runtime-main.7585883a.js",
     "runtime-main.js.map": "/e-commerse/static/js/runtime-main.7585883a.js.map",
-    "static/js/2.6c6e399e.chunk.js": "/e-commerse/static/js/2.6c6e399e.chunk.js",
-    "static/js/2.6c6e399e.chunk.js.map": "/e-commerse/static/js/2.6c6e399e.chunk.js.map",
+    "static/js/2.57fc5fc8.chunk.js": "/e-commerse/static/js/2.57fc5fc8.chunk.js",
+    "static/js/2.57fc5fc8.chunk.js.map": "/e-commerse/static/js/2.57fc5fc8.chunk.js.map",
     "static/js/3.c5f7e6e8.chunk.js": "/e-commerse/static/js/3.c5f7e6e8.chunk.js",
     "static/js/3.c5f7e6e8.chunk.js.map": "/e-commerse/static/js/3.c5f7e6e8.chunk.js.map",
     "index.html": "/e-commerse/index.html",
     "static/css/main.a37f76fa.chunk.css.map": "/e-commerse/static/css/main.a37f76fa.chunk.css.map",
-    "static/js/2.6c6e399e.chunk.js.LICENSE.txt": "/e-commerse/static/js/2.6c6e399e.chunk.js.LICENSE.txt",
+    "static/js/2.57fc5fc8.chunk.js.LICENSE.txt": "/e-commerse/static/js/2.57fc5fc8.chunk.js.LICENSE.txt",
+    "static/media/addProductIcon.a857bf22.svg": "/e-commerse/static/media/addProductIcon.a857bf22.svg",
     "static/media/avatar.ccda1a3a.png": "/e-commerse/static/media/avatar.ccda1a3a.png",
     "static/media/calendar.636d0991.svg": "/e-commerse/static/media/calendar.636d0991.svg",
     "static/media/dalete.c0e2fb97.svg": "/e-commerse/static/media/dalete.c0e2fb97.svg",
     "static/media/dashboard.c47251e9.svg": "/e-commerse/static/media/dashboard.c47251e9.svg",
     "static/media/down.c3e123cf.svg": "/e-commerse/static/media/down.c3e123cf.svg",
     "static/media/downloadReport.7cf8bd1d.svg": "/e-commerse/static/media/downloadReport.7cf8bd1d.svg",
+    "static/media/files.6454805b.png": "/e-commerse/static/media/files.6454805b.png",
     "static/media/hamburgerMenu.3c6b6a3b.svg": "/e-commerse/static/media/hamburgerMenu.3c6b6a3b.svg",
     "static/media/history.3acd4bdd.svg": "/e-commerse/static/media/history.3acd4bdd.svg",
     "static/media/iphonePro.03449602.png": "/e-commerse/static/media/iphonePro.03449602.png",
@@ -33,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7585883a.js",
-    "static/js/2.6c6e399e.chunk.js",
+    "static/js/2.57fc5fc8.chunk.js",
     "static/css/main.a37f76fa.chunk.css",
-    "static/js/main.8ee456cd.chunk.js"
+    "static/js/main.b03608a9.chunk.js"
   ]
 }
