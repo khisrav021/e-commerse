@@ -21,6 +21,7 @@ textarea{
     padding: 10px;
     border: 1px solid #CFD4D9;
     margin-bottom: 10px;
+    resize: vertical;
 }
 `
 

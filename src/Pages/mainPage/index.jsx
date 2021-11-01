@@ -9,6 +9,7 @@ import Products from "../../components/products/index.jsx";
 import History from "../../components/history/index.jsx";
 import Cart from "../../components/cart/index.jsx";
 import SearchNavbar from "../../components/navbarSearch/index.jsx";
+import AddProduct from "../../components/addProduct/index.jsx";
 
 function MainPage() {
   
@@ -35,6 +36,9 @@ function MainPage() {
             </Route>
             <Route path="/cart">
               <Cart />
+            </Route>
+            <Route path="/addProduct">
+              <AddProduct />
             </Route>
           </Switch>
         </div>
